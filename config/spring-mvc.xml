@@ -11,6 +11,8 @@
     <!--扫描包下所有的Controller，生成Bean保存在SpringMVC的ApplicatonContext中（非Spring的ApplicationContext）-->
     <context:component-scan base-package="com.yanghao.controller"></context:component-scan>
 
+
+
     <!-- 使用注解驱动，默认就会使用最新版本的处理器映射器与适配器，同它为json串响应提供支持 -->
     <mvc:annotation-driven conversion-service="formattingConversionService"/>
     <!--定义日期转换器-->
